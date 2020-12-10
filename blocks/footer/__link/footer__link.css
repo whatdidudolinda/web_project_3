@@ -1,9 +1,13 @@
 .footer__link {
-    color: white;
-    font-size: 16px;
-    line-height: 18px;
+    color: #fff;
     font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__link:hover {
+    opacity: 0.5;
 }
