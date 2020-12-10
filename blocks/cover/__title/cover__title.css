@@ -1,0 +1,14 @@
+.cover__title {
+    color: #fff;
+    font-family: Inter;
+    font-weight: bold;
+    width: 656px;
+    height: 76px;
+    font-size: 72px;
+    line-height: 76px;
+    margin-top: 283px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
