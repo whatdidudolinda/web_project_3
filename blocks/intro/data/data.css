@@ -1,0 +1,7 @@
+@import url(./__text/data__text.css);
+@import url(./__text-bold/data__text-bold.css);
+.data {
+    list-style: none;
+    padding: 0;
+    margin-top: 33px;
+}

@@ -1,0 +1,11 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: 284px 284px 284px 284px;
+    grid-template-rows: 213px 213px 213px;
+    grid-gap: 16px;
+    list-style: none;
+    width: 320px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}

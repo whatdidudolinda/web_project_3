@@ -1,0 +1,14 @@
+@import url(./data/data.css);
+@import url(./__text/intro__text.css);
+@import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    height: 569px;
+    margin-top: 0;
+    margin-bottom: 92px;
+    margin-left: 148px;
+    margin-right: auto;
+}
