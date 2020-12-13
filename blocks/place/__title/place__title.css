@@ -1,9 +1,10 @@
 .place__title{
     color: #fff;
-    height: 152px;
+    max-width: calc(100% - 40px);
     font-family: 'Inter';
     font-weight: bold;
     font-size: 72px;
     line-height: 76px;
-    margin: 0;
+    margin: auto 0;
+    grid-area: title;
 }

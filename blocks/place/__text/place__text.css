@@ -3,4 +3,5 @@
     flex-direction: column;
     grid-area: text;
     max-width: 100%;
+    grid-area: text;
 }
