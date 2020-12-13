@@ -1,0 +1,8 @@
+@import url(./__list/places__list.css);
+.places {
+    display: flex;
+    width: 984px;
+    min-height: 3434px;
+    margin-top: 92px;
+    margin-bottom: 92px;
+}

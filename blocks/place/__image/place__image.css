@@ -1,0 +1,7 @@
+.place__image {
+    display: flex;
+    width: 460px;
+    height: 460px;
+    margin-top: 48px;
+    margin-right: 40px;
+}
