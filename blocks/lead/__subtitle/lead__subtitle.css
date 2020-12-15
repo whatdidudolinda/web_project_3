@@ -3,6 +3,8 @@
     font-family: 'Inter';
     margin-top: 32px;
     margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
     line-height: 36px;
     text-align: center;
