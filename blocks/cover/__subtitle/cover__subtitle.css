@@ -1,12 +1,10 @@
 .cover__subtitle {
-  position: flex;
   color: #fff;
   font-family: 'Inter';
   align-items: center;
   justify-content: center;
   font-weight: normal;
   text-align: center;
-  width: 288px;
   font-size: 18px;
   line-height: 22px;
   margin: 32px auto;
@@ -14,7 +12,6 @@
 
 @media (min-width: 320px) {
   .cover__subtitle {
-    margin-top: 32px;
     font-size: 14px;
     line-height: 16px;
   }
@@ -25,18 +22,5 @@
     font-size: 18px;
     line-height: 22px;
     width: 320px;
-    margin-top: 32px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cover__subtitle {
-    margin: 32px auto;
-  }
-}
-
-@media (min-width: 1280px) {
-  .cover__subtitle {
-    margin-top: 32px;
   }
 }
