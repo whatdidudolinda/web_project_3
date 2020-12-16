@@ -4,9 +4,37 @@
     font-family: 'Inter';
     font-weight: normal;
     line-height: 29.34px;
-    width: 484px;
-    height: auto;
     margin-top: 26px;
     margin-bottom: 0;
     padding: 0;
+}
+
+@media (min-width: 320px) {
+    .place__paragraph {
+        width: 288px;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
+
+@media (min-width: 768px) {
+    .place__paragraph {
+        width: 352px;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .place__paragraph {
+        width: 456px;
+        font-size: 16px;
+        line-height: 26.08px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .place__paragraph {
+        width: 484px;
+    }
 }

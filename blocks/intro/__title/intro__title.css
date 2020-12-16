@@ -9,3 +9,31 @@
     width: 690px;
     height: 116px;
 }
+
+@media (min-width: 375px) {
+    .intro__title {
+      width: 288px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .intro__title {
+      width: 720px;
+      margin-left: 24px;
+      font-size: 54px;
+      line-height: 58px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .intro__title {
+      width: 690px;
+      margin-left: 48px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .intro__title {
+      margin-left: 0;
+    }
+  }

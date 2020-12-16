@@ -7,12 +7,6 @@
 @import url(./__url/place__url.css);
 .place {
     display: grid;
-    margin-top: 4.5rem;
-    grid-template-rows: 10vh repeat (2, auto);
-    grid-template-columns: 1fr;
     grid-template-areas: "title url" "image text";
-}
-
-.place:first-of-type {
-    margin-top: 0;
+    margin: 0 auto;
 }

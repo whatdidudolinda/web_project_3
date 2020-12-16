@@ -4,12 +4,39 @@
 @import url(./__item/footer__item.css);
 .footer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 24px;
     padding: 0;
-    width: 1184px;
-    height: 18px;
+}
+
+@media (min-width: 320px) {
+    .footer {
+        flex-direction: column;
+        margin: 64px 16px 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 88px 24px 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 92px 48px 24px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        margin: 92px 48px 24px;
+    }
 }
