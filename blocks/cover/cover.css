@@ -5,8 +5,9 @@
 .cover {
   display: flex;
   margin: 92px auto 0 auto;
-  width: 100%;
-  height: 100%;
+  height: 60vh;
+  min-width: 320px;
+  max-width: 1184px;
   text-align: center;
   color: #fff;
   flex-direction: column;
@@ -16,7 +17,6 @@
 }
 
 .cover:hover {
-  background: url(/images/__background-route-66.png);
   color: #2A2C2F;
   opacity: 0.3;
   transform: opacity 0.20 infiniti linear;
@@ -42,7 +42,6 @@
   .cover {
     width: 1024px;
     height: 640px;
-    margin-top: 92px;
   }
 }
 
@@ -50,6 +49,5 @@
   .cover {
     width: 1184px;
     height: 740px;
-    margin-top: 92px;
   }
 }
