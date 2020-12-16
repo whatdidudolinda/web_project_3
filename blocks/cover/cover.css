@@ -1,7 +1,7 @@
 @import url(./__background/cover__background.css);
-@import url(./__overlay/overlay.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__title/cover__title.css);
+@import url(./__link/cover__link.css);
 .cover {
   display: flex;
   margin: 92px auto 0 auto;
@@ -13,6 +13,13 @@
   background-image: url(/images/__background-route-66.png);
   background-size: cover;
   background-position: center;
+}
+
+.cover:hover {
+  background: url(/images/__background-route-66.png);
+  color: #2A2C2F;
+  opacity: 0.3;
+  transform: opacity 0.20 infiniti linear;
 }
 
 @media (min-width: 320px) {

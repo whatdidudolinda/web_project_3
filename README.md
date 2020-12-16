@@ -4,6 +4,8 @@
 * Intro
 * Figma
 * Images
+* Media Queries
+
 
 **Intro**
 
