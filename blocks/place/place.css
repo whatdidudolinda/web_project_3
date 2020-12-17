@@ -8,5 +8,6 @@
 .place {
     display: grid;
     grid-template-areas: "title url" "image text";
-    margin: 0 auto;
+    margin: 0;
+    padding:0;
 }

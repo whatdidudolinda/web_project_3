@@ -6,10 +6,9 @@
 .lead {
     display: flex;
     flex-direction: column;
+    min-width: 320px;
+    max-width: 984px;
     justify-content: center;
     align-items: center;
-    margin-left: 148px;
-    margin-right: 148px;
-    margin-top: 58px;
-    margin-bottom: 92px;
+    margin: 0 auto 92px;
 }

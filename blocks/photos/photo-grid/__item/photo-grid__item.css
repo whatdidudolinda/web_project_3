@@ -2,10 +2,13 @@
     display: flex;
     list-style: none;
     max-width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
     .photo-grid__item {
+        flex-wrap: wrap;
         margin-bottom: 16px;
         width: 288px;
         height: 216px;

@@ -5,22 +5,29 @@
 .intro {
     display: flex;
     flex-direction: column;
-    width: 690px;
-    height: 569px;
-    margin-top: 0;
-    margin-bottom: 92px;
-    margin-left: 148px;
-    margin-right: auto;
+    margin: 0 148px;
 }
 
 @media (min-width: 320px) {
     .intro {
-        margin-top: 64px;
+        margin: 0 16px;
     }
 }
 
 @media (min-width: 768px) {
     .intro {
-        margin-top: 88px;
+        margin: 0 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro {
+        margin: 0 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .intro {
+        margin: 0 148px;
     }
 }
