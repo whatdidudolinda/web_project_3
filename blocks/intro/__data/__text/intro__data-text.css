@@ -1,5 +1,4 @@
-.data__text {
-  font-family: 'Inter';
+.intro__data-text {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
@@ -9,13 +8,13 @@
 }
 
 @media (min-width: 375px) {
-  .data__text {
+  .intro__data-text {
     width: 288px;
   }
 }
 
 @media (min-width: 768px) {
-  .data__text {
+  .intro__data-text {
     width: 720px;
     font-size: 12px;
     line-height: 18px;
@@ -23,7 +22,7 @@
 }
 
 @media (min-width: 1024px) {
-  .data__text {
+  .intro__data-text {
     width: 690px;
   }
 }

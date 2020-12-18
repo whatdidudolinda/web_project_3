@@ -1,4 +1,4 @@
-@import url(./data/data.css);
+@import url(./__data/data.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 @import url(./__subtitle/intro__subtitle.css);
