@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     .footer__copyright {
         margin-top: 48px;
         margin-bottom: 0px;

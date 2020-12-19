@@ -8,23 +8,12 @@
   font-size: 18px;
   line-height: 22px;
   margin: 32px auto;
+  z-index: 1;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-  }
-}
-
-@media (min-width: 768px) {
-  .cover__subtitle {
-    width: 320px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cover__subtitle {
-    width: 320px;
   }
 }

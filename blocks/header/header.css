@@ -6,26 +6,26 @@
     margin: 34px auto;
 }
 
-@media (min-width: 375px) {
+@media (max-width: 1280px) {
     .header {
-        width: 288px;
+        max-width: 984px;
     }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
     .header {
-        width: 720px;
+        max-width: 928px;
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 768px) {
     .header {
-        width: 928px;
+        max-width: 720px;
     }
 }
 
-@media (min-width: 1280px) {
+@media (max-width: 375px) {
     .header {
-        width: 984px;
+        max-width: 288px;
     }
 }

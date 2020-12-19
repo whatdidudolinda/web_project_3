@@ -1,6 +1,7 @@
 .cover__link {
     display: flex;
     position: relative;
+    min-height: 740px;
     flex-direction: column;
     background-image: url(../../../images/__background-route-66.png);
     justify-content: center;
@@ -13,7 +14,6 @@
 }
 
 .cover__link:after {
-    display: block;
     position: absolute;
     content: "";
     background: #2A2C2F;
@@ -26,5 +26,23 @@
 
 .cover__link:hover:after {
     opacity: .6;
-    transition-duration: .2s;
+    transition-duration: .20s;
+}
+
+@media (max-width: 1024px) {
+    .cover__link {
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__link {
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 375px) {
+    .cover__link {
+        min-height: 200px;
+    }
 }
