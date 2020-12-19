@@ -28,5 +28,6 @@
 @media (max-width: 375px) {
     .place {
         grid-template-columns: 1fr;
+        grid-template-areas: "title url image text";
     }
 }
