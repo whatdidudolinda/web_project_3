@@ -1,28 +1,8 @@
 .lead__title {
-    color: #fff;
-    font-family: 'Inter';
-    margin: 58px 0;
-    justify-content: center;
-    align-self: center;
     text-align: center;
+    margin: 0;
     padding: 0;
     line-height: 100px;
     font-weight: bold;
     font-size: 96px;
-    max-width: 720px;
-}
-
-@media (max-width: 768px) {
-    .lead__title {
-        margin: 50px 0;
-    }
-}
-
-@media (max-width: 375px) {
-    .lead__title {
-        max-width: 288px;
-        font-size: 40px;
-        line-height: 44px;
-        margin: 50px 0;
-    }
 }

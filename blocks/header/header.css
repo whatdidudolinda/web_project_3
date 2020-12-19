@@ -3,29 +3,29 @@
     display: flex;
     justify-content: space-between;
     min-height: 36px;
-    margin: 34px auto;
+    margin: 34px 148px 0;
+    max-width: 984px;
+    padding: 0;
 }
 
-@media (max-width: 1280px) {
-    .header {
-        max-width: 984px;
-    }
-}
 
 @media (max-width: 1024px) {
     .header {
         max-width: 928px;
+        margin: 34px 48px 0;
     }
 }
 
 @media (max-width: 768px) {
     .header {
         max-width: 720px;
+        margin: 34px 24px 0;
     }
 }
 
 @media (max-width: 375px) {
     .header {
         max-width: 288px;
+        margin: 20px 16px 0;
     }
 }

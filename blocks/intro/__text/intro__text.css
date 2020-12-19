@@ -1,22 +1,7 @@
 .intro__text {
-  color: #fff;
-  font-family: 'Inter';
   margin: 0;
   padding: 0;
   line-height: 26.08px;
   font-weight: normal;
   font-size: 16px;
-  max-width: 690px;
-}
-
-@media (max-width: 768px) {
-  .intro__text {
-    max-width: 720px;
-  }
-}
-
-@media (max-width: 375px) {
-  .intro__text {
-    max-width: 288px;
-  }
 }
