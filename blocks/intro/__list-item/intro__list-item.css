@@ -1,4 +1,4 @@
-.intro__data_text {
+.intro__list-item {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
@@ -9,13 +9,13 @@
 }
 
 @media (max-width: 768px) {
-  .intro__data_text {
+  .intro__list-item {
     max-width: 720px;
   }
 }
 
 @media (max-width: 375px) {
-  .intro__data_text {
+  .intro__list-item {
     max-width: 288px;
   }
 }

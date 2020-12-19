@@ -1,7 +1,0 @@
-@import url(./_text/intro__data_text.css);
-@import url(./_text_bold/intro__data_text_bold.css);
-.intro__data {
-    list-style: none;
-    padding: 0;
-    margin-top: 33px;
-}

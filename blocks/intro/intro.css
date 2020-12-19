@@ -1,4 +1,6 @@
-@import url(./__data/intro__data.css);
+@import url(./__list/intro__list.css);
+@import url(./__list-item/_bold/intro__list-item_bold.css);
+@import url(./__list-item/intro__list-item.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 @import url(./__subtitle/intro__subtitle.css);
