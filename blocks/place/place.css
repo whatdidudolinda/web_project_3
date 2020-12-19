@@ -8,7 +8,25 @@
 .place {
     display: grid;
     grid-template-areas: "title url" "image text";
-    grid-template-columns: auto;
-    margin: 0;
-    padding:0;
+    grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+    max-width: 984px;
+}
+
+@media (max-width: 1024px) {
+    .place {
+        max-width: 928px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place {
+        max-width: 720px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .place {
+        grid-template-columns: 1fr;
+    }
 }

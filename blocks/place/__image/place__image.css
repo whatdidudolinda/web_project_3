@@ -1,34 +1,4 @@
 .place__image {
-    display: flex;
-    margin-top: 48px;
-    margin-right: 40px;
+    width: 100%;
     grid-area: image;
-}
-
-@media (max-width: 1280px) {
-    .place__image {
-        max-width: 460px;
-        max-height: 460px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .place__image {
-        max-width: 440px;
-        max-height: 440px;
-    }
-}
-
-@media (max-width: 768px) {
-    .place__image {
-        max-width: 340px;
-        max-height: 340px;
-    }
-}
-
-@media (max-width: 375px) {
-    .place__image {
-        max-width: 320px;
-        max-height: 320px;
-    }
 }

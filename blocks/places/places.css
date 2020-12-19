@@ -1,7 +1,8 @@
-@import url(./__list/places__list.css);
 .places {
-  padding: 0;
   margin: 0 148px;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
 }
 
 @media (max-width: 1024px) {

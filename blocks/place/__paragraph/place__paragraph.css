@@ -3,8 +3,7 @@
     font-size: 18px;
     font-weight: normal;
     line-height: 29.34px;
-    margin-top: 26px;
-    margin-bottom: 0;
+    margin: 0px 40px 26px;
     padding: 0;
     max-width: 484px;
 }
@@ -31,5 +30,6 @@
         max-width: 288px;
         font-size: 16px;
         line-height: 26.08px;
+        margin: 10px 16px 10px 16px;
     }
 }
