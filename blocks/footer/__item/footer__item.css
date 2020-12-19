@@ -4,7 +4,7 @@
     margin-bottom: 0px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 375px) {
     .footer__item {
         margin-top: 32px;
     }

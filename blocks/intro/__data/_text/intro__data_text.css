@@ -1,4 +1,4 @@
-.intro__data-text {
+.intro__data_text {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
@@ -8,13 +8,13 @@
 }
 
 @media (min-width: 375px) {
-  .intro__data-text {
+  .intro__data_text {
     width: 288px;
   }
 }
 
 @media (min-width: 768px) {
-  .intro__data-text {
+  .intro__data_text {
     width: 720px;
     font-size: 12px;
     line-height: 18px;
@@ -22,7 +22,7 @@
 }
 
 @media (min-width: 1024px) {
-  .intro__data-text {
+  .intro__data_text {
     width: 690px;
   }
 }

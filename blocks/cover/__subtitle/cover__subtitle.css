@@ -1,6 +1,5 @@
 .cover__subtitle {
   color: #fff;
-  font-family: 'Inter';
   align-items: center;
   justify-content: center;
   max-width: 320px;
@@ -11,7 +10,7 @@
   margin: 32px auto;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 375px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
@@ -20,16 +19,12 @@
 
 @media (min-width: 768px) {
   .cover__subtitle {
-    font-size: 18px;
-    line-height: 22px;
     width: 320px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover__subtitle {
-    font-size: 18px;
-    line-height: 22px;
     width: 320px;
   }
 }

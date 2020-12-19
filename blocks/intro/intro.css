@@ -1,4 +1,4 @@
-@import url(./__data/data.css);
+@import url(./__data/intro__data.css);
 @import url(./__text/intro__text.css);
 @import url(./__title/intro__title.css);
 @import url(./__subtitle/intro__subtitle.css);
@@ -8,7 +8,7 @@
     margin: 0 148px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 375px) {
     .intro {
         margin: 0 16px;
     }

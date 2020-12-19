@@ -1,6 +1,5 @@
 .cover__title {
   color: #fff;
-  font-family: 'Inter';
   font-weight: bold;
   text-align: center;
   font-size: 72px;
@@ -10,7 +9,7 @@
   padding: 0;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 375px) {
   .cover__title {
     margin-top: 51px;
     font-size: 32px;
@@ -32,7 +31,7 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .cover__title {
     margin-top: 283px;
   }

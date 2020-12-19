@@ -1,6 +1,5 @@
 @import url(../nav/__lang/nav__lang.css);
 @import url(../nav/__lang/nav__lang_active.css);
-
 .nav {
     display: flex;
     list-style: none;

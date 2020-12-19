@@ -11,7 +11,7 @@
     font-size: 96px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 375px) {
     .lead__title {
         width: 288px;
         font-size: 40px;

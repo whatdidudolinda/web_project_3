@@ -2,7 +2,6 @@
 @import url(./photo-grid/photo-grid.css);
 .photos {
     margin: 0;
-    max-width: 1184px;
     padding: 92px 48px 92px;
 }
 

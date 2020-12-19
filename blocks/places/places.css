@@ -4,7 +4,7 @@
   margin: 0 148px;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 375px) {
   .places {
     margin: 0 16px;
   }
