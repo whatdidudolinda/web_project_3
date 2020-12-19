@@ -7,11 +7,11 @@
 .intro {
     display: flex;
     flex-direction: column;
+    margin: 0 148px;
 }
 
 @media (max-width: 1280px) {
     .intro {
-        margin: 0 148px;
         max-width: 690px;
     }
 }

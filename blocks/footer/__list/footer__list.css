@@ -6,3 +6,9 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 375px) {
+    .footer__list {
+        flex-direction: column;
+    }
+}
