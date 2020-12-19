@@ -1,24 +1,13 @@
 .place__paragraph {
-    color: #fff;
     font-size: 18px;
     font-weight: normal;
     line-height: 29.34px;
     margin: 0px 40px 26px;
     padding: 0;
-    max-width: 484px;
-}
-
-@media (max-width: 1024px) {
-    .place__paragraph {
-        max-width: 456px;
-        font-size: 16px;
-        line-height: 26.08px;
-    }
 }
 
 @media (max-width: 768px) {
     .place__paragraph {
-        max-width: 352px;
         font-size: 16px;
         line-height: 26.08px;
     }
@@ -27,7 +16,6 @@
 
 @media (max-width: 375px) {
     .place__paragraph {
-        max-width: 288px;
         font-size: 16px;
         line-height: 26.08px;
         margin: 10px 16px 10px 16px;

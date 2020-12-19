@@ -4,7 +4,6 @@
     grid-template-rows: repeat(3, auto);
     grid-gap: 16px;
     list-style: none;
-    max-width: 1184px;
     padding: 0;
     margin: 0 auto;
 }
@@ -12,19 +11,11 @@
 @media (max-width: 1024px) {
     .photo-grid {
         grid-gap: 14px;
-        max-width: 928px;
-    }
-}
-
-@media (max-width: 768px) {
-    .photo-grid {
-        max-width: 720px;
     }
 }
 
 @media (max-width: 375px) {
     .photo-grid {
         grid-gap: 12px;
-        max-width: 288px;
     }
 }
