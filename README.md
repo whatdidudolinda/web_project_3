@@ -1,4 +1,6 @@
-# Project 3: From Portland to Portland (https://whatdidudolinda.github.io/web_project_3/)
+# Project 3: From Portland to Portland
+
+* [Link to the project on Github] (https://whatdidudolinda.github.io/web_project_3/)
 
 ### Overview
 * Intro
