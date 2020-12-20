@@ -12,3 +12,9 @@
 .place__url-link:hover {
     opacity: 0.5;
 }
+
+@media (max-width: 375px) {
+    .place__url-link {
+        display: none;
+    }
+}
