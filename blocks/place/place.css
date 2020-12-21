@@ -7,13 +7,13 @@
 @import url(./__url/place__url.css);
 .place {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: minmax(auto, 460px) auto;
     grid-auto-rows: auto auto;
     grid-template-areas: "title url" "image text";
     grid-column-gap: 40px;
     margin: 0;
     box-sizing: border-box;
-    max-width: 984px;
+    max-width: 100%;
 }
 
 @media (max-width: 1280px) {
@@ -36,10 +36,11 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
     .place {
         grid-template-columns: 1fr;
         grid-template-areas: "title" "image" "text";
         grid-row-gap: 32px;
+        grid-column-gap: 0;
     }
 }
