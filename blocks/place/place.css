@@ -11,9 +11,13 @@
     grid-auto-rows: auto auto;
     grid-template-areas: "title url" "image text";
     grid-column-gap: 40px;
-    margin: 0;
+    margin: 80px 0 0;
     box-sizing: border-box;
-    max-width: 100%;
+    max-width: 984px;
+}
+
+.place:first-of-type {
+    margin: 0;
 }
 
 @media (max-width: 1280px) {
@@ -33,14 +37,15 @@
     .place {
         grid-template-columns: 340px auto;
         grid-column-gap: 28px;
+        margin: 73px 0 0;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .place {
         grid-template-columns: 1fr;
         grid-template-areas: "title" "image" "text";
         grid-row-gap: 32px;
-        grid-column-gap: 0;
+        margin: 49px 0 0;
     }
 }
